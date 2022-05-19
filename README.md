@@ -18,6 +18,6 @@ Material for the ML tutorial held during [ATLAS Italia 2022](https://agenda.infn
 
 [3.1-Autoencoder_denoise](notebooks/3.1-AutoEncoder_denoise.ipynb)[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/wiso/TutorialML-AtlasItalia2022/blob/master/notebooks/3.1-AutoEncoder_denoise.ipynb)
 
-[3.2-Autoencoder](notebooks/3.2-VariationalAutoEncoder.ipynb)[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/wiso/TutorialML-AtlasItalia2022/blob/master/notebooks/3.2-VariationalAutoEncoder.ipynb)
+[3.2-VariationalAutoEncoder](notebooks/3.2-VariationalAutoEncoder.ipynb)[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/wiso/TutorialML-AtlasItalia2022/blob/master/notebooks/3.2-VariationalAutoEncoder.ipynb)
 
 
