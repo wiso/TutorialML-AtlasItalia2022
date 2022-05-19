@@ -14,5 +14,10 @@ Material for the ML tutorial held during [ATLAS Italia 2022](https://agenda.infn
 
 [2.2-EnergyRegression](notebooks/2.2-EnergyRegression.ipynb)[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/wiso/TutorialML-AtlasItalia2022/blob/master/notebooks/2.2-EnergyRegression.ipynb)
 
+[3.0-Autoencoder](notebooks/3.0-AutoEncoder.ipynb)[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/wiso/TutorialML-AtlasItalia2022/blob/master/notebooks/3.0-AutoEncoder.ipynb)
+
+[3.1-Autoencoder_denoise](notebooks/3.1-AutoEncoder_denoise.ipynb)[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/wiso/TutorialML-AtlasItalia2022/blob/master/notebooks/3.1-AutoEncoder_denoise.ipynb)
+
+[3.2-Autoencoder](notebooks/3.2-VariationalAutoEncoder.ipynb)[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/wiso/TutorialML-AtlasItalia2022/blob/master/notebooks/3.2-VariationalAutoEncoder.ipynb)
 
 
