@@ -2,7 +2,7 @@
 Material for the ML tutorial held during [ATLAS Italia 2022](https://agenda.infn.it/event/29726/)
 
 ## Notebooks
-All the notebooks with their outputs can be found on [cernbox](https://cernbox.cern.ch/index.php/s/8zNhGJyKUWDbm4h)
+All the notebooks with their outputs can be found on [cernbox](https://cernbox.cern.ch/index.php/s/oiIGWYvFjC7QFYQ)
 
 [0.1-IntroML](notebooks/0.1-IntroML.ipynb): [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/wiso/TutorialML-AtlasItalia2022/blob/main/notebooks/0.1-IntroMLs.ipynb)
 
