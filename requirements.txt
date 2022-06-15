@@ -6,6 +6,7 @@ autograd==1.4
 corner==2.2.1
 ipython==8.4.0
 jax==0.3.13
+jaxlib[cpu]==0.3.10
 keras==2.9.0
 pyhf==0.6.3
 scikit_learn==1.1.1
