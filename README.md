@@ -46,6 +46,7 @@ pip install requirements.txt
 
 Open the first notebook:
 ```
-jupyter notebook notebooks/0.1-IntroML.ipynb
+cd notebooks
+jupyter notebook 0.1-IntroML.ipynb
 ```
 
