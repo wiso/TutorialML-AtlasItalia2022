@@ -3,6 +3,10 @@ Material for the ML tutorial held during [ATLAS Italia 2022](https://agenda.infn
 
 ## Notebooks
 
+[0.1-IntroML](notebooks/0.1-IntroML.ipynb): [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/wiso/TutorialML-AtlasItalia2022/blob/main/notebooks/0.1-IntroMLs.ipynb)
+
+[0.2-IntroKeras](notebooks/0.2-IntroKeras.ipynb): [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/wiso/TutorialML-AtlasItalia2022/blob/main/notebooks/0.2-IntroKeras.ipynb)
+
 [1.0-Image classification](notebooks/1.0-ImageClassification.ipynb): Images classification (fashion-mnist dataset) with a plain neural network [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/wiso/TutorialML-AtlasItalia2022/blob/master/notebooks/1.0-ImageClassification.ipynb)
 
 
