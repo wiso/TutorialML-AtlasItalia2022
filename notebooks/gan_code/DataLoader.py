@@ -21,40 +21,32 @@ class DataLoader:
         self.Labels_all = []  
         self.maxVoxelAll = 0    
         self.maxVoxelMid = 0
-        self.maxVoxels = []
+        self.maxVoxels = []      
 
         print ("************* DATA READER ***************")
         print ("Loading data")
 
-        for i in range(8, 23):
-            self.ekins.append(2**i)
+        e = []
+        for i in range(8, 10):
+            e.append(2**i)
 
-        self.midEnergy = self.ekins[15]
+        self.ekins = e
+        print (self.ekins)
+        self.midEnergy = self.ekins[0]
         self.LoadData()
 
     def LoadData(self):
         print("----Loading files----")
-        #print ("  Label is " + self.dataParameters.label_definition.name)
-        #print ("  Normalised using " + self.dataParameters.voxel_normalisation.name)
         for index, p in enumerate(self.ekins):
-            fileName = f"../gan_inputs/pid22_E%s_eta_20_25_voxalisation.csv" % (p)
+            fileName = f"gan_inputs/pid22_E%s_eta_20_25_voxalisation.csv" % (p)
             print("Opening file " + fileName)
             df = pd.read_csv(fileName, header=None, engine='python', dtype=np.float64)
             df = df.fillna(0)
-
-            phimod = df.iloc[ : , 0 ].to_numpy()
-            etaColumn = abs(df.iloc[ : , 1 ].to_numpy())
-            
-            first_column = df.columns[0]
-            second_column = df.columns[1]
-            df = df.drop([first_column], axis=1) #Removing the first element which is phiMod
-            df = df.drop([second_column], axis=1) #Removing the first element which is eta
            
             Energies=df.to_numpy()
             nevents=len(Energies)
             
             #Set array to zero to remove conditioning
-            phimod = np.zeros(nevents)
             etaColumn = np.zeros(nevents)
 
             print("Loaded momentum " + str(p)) 
@@ -83,7 +75,7 @@ class DataLoader:
         
     def DefineEnergyLabels(self, index):       
         ekin = self.ekin_all[index][0]
-        label = DataLoader.energyLabel(self.dataParameters.label_definition, ekin, self.E_min, self.E_max)
+        label = DataLoader.energyLabel(ekin, self.E_min, self.E_max)
 
         nevents = len(self.ekin_all[index])
         self.ekin_all[index] = np.array([label]*nevents)
@@ -120,7 +112,7 @@ class DataLoader:
         label_all = []
 
         for i in range(min, max+1): 
-            sampleIndex = i - self.dataParameters.min_expE
+            sampleIndex = i - 8
             x = copy.copy(self.X_all[sampleIndex])
             label = self.Labels_all[sampleIndex]
 
@@ -133,7 +125,7 @@ class DataLoader:
         return x_all, label_all
         
     @staticmethod
-    def energyLabel(labelType, energy, E_min, E_max):
+    def energyLabel(energy, E_min, E_max):
         return math.log(energy/E_min) / math.log(E_max/E_min)
 
     @staticmethod
