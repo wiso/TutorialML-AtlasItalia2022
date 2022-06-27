@@ -2,31 +2,47 @@
 Material for the ML tutorial held during [ATLAS Italia 2022](https://agenda.infn.it/event/29726/).
 
 ## Notebooks
-All the notebooks with their outputs can be found on [cernbox](https://cernbox.cern.ch/index.php/s/oiIGWYvFjC7QFYQ) or on swan. You can run them interactively with colab (see links below) or with swan (follow the link you have received, or go to https://swan.cern.ch/ (or https://swan-k8s.cern.ch/ if you have GPU access) -> Share -> Projects shared with me -> TutorialML-AtlasItalia2022). You can also run on your laptop.
+You can follow the tutorial in several way. Some way are interactive (you can run the code), some are static. On github and on colab you won't find the precomputed output.
 
-[0.1-IntroML](notebooks/0.1-IntroML.ipynb): [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/wiso/TutorialML-AtlasItalia2022/blob/main/notebooks/0.1-IntroML.ipynb)
+   * on [cernbox](https://cernbox.cern.ch/index.php/s/oiIGWYvFjC7QFYQ) (static)
+   * using [Swan](https://swan.cern.ch/) (interactive) (or https://swan-k8s.cern.ch/ if you have GPU access) -> Share -> Projects shared with me -> TutorialML-AtlasItalia2022).) You will find the project only if you are registered to this tutorial (and I haven't forget you)
+   * using colab: see links below (interactive)
+   * on github: see the lins below (static)
+   * on your laptop (instruction below)
 
-[0.2-IntroKeras](notebooks/0.2-IntroKeras.ipynb): [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/wiso/TutorialML-AtlasItalia2022/blob/main/notebooks/0.2-IntroKeras.ipynb)
 
-[1.0-Image classification](notebooks/1.0-ImageClassification.ipynb): Images classification (fashion-mnist dataset) with a plain neural network [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/wiso/TutorialML-AtlasItalia2022/blob/master/notebooks/1.0-ImageClassification.ipynb)
+### [0.1-IntroML](notebooks/0.1-IntroML.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/wiso/TutorialML-AtlasItalia2022/blob/main/notebooks/0.1-IntroML.ipynb)
+Just some fun material about the present (2022) status of ML around the world
 
+### [0.2-IntroKeras](notebooks/0.2-IntroKeras.ipynb): [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/wiso/TutorialML-AtlasItalia2022/blob/main/notebooks/0.2-IntroKeras.ipynb)
+A super quick introduction to neural networks, tensorflow and keras
 
-[1.1-ImageClassification](notebooks/1.1-ImageClassification.ipynb): Images classification (fashion-mnist dataset) with a convolutional neural network [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/wiso/TutorialML-AtlasItalia2022/blob/master/notebooks/1.1-ImageClassification.ipynb)
+### [1.0-Image classification](notebooks/1.0-ImageClassification.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/wiso/TutorialML-AtlasItalia2022/blob/master/notebooks/1.0-ImageClassification.ipynb)
+Images classification (fashion-mnist dataset) with a plain neural network
 
-[2.0-EnergyRegression](notebooks/2.0-EnergyRegression.ipynb)[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/wiso/TutorialML-AtlasItalia2022/blob/master/notebooks/2.0-EnergyRegression.ipynb)
+### [1.1-ImageClassification](notebooks/1.1-ImageClassification.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/wiso/TutorialML-AtlasItalia2022/blob/master/notebooks/1.1-ImageClassification.ipynb)
+An improved version of the previous example using a convolutional neural network
 
-[2.1-EnergyRegression](notebooks/2.1-EnergyRegression.ipynb)[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/wiso/TutorialML-AtlasItalia2022/blob/master/notebooks/2.1-EnergyRegression.ipynb)
+### [2.0-EnergyRegression](notebooks/2.0-EnergyRegression.ipynb)[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/wiso/TutorialML-AtlasItalia2022/blob/master/notebooks/2.0-EnergyRegression.ipynb)
+Build an energy calibration for electron in ATLAS using a neural network: introduction to the problem and the dataset
 
-[2.2-EnergyRegression](notebooks/2.2-EnergyRegression.ipynb)[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/wiso/TutorialML-AtlasItalia2022/blob/master/notebooks/2.2-EnergyRegression.ipynb)
+### [2.1-EnergyRegression](notebooks/2.1-EnergyRegression.ipynb)[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/wiso/TutorialML-AtlasItalia2022/blob/master/notebooks/2.1-EnergyRegression.ipynb)
+The real neural network for the energy calibration
 
-[3.0-Autoencoder](notebooks/3.0-AutoEncoder.ipynb)[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/wiso/TutorialML-AtlasItalia2022/blob/master/notebooks/3.0-AutoEncoder.ipynb)
+### [2.2-EnergyRegression](notebooks/2.2-EnergyRegression.ipynb)[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/wiso/TutorialML-AtlasItalia2022/blob/master/notebooks/2.2-EnergyRegression.ipynb)
+Some more complicated: build a regression of the distribution of the energy response of the detector to electrons
 
-[3.1-Autoencoder_denoise](notebooks/3.1-AutoEncoder_denoise.ipynb)[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/wiso/TutorialML-AtlasItalia2022/blob/master/notebooks/3.1-AutoEncoder_denoise.ipynb)
+### [3.0-Autoencoder](notebooks/3.0-AutoEncoder.ipynb)[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/wiso/TutorialML-AtlasItalia2022/blob/master/notebooks/3.0-AutoEncoder.ipynb)
+Use an autoencoder to generate fashion images
 
-[3.2-VariationalAutoEncoder](notebooks/3.2-VariationalAutoEncoder.ipynb)[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/wiso/TutorialML-AtlasItalia2022/blob/master/notebooks/3.2-VariationalAutoEncoder.ipynb)
+### [3.1-Autoencoder_denoise](notebooks/3.1-AutoEncoder_denoise.ipynb)[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/wiso/TutorialML-AtlasItalia2022/blob/master/notebooks/3.1-AutoEncoder_denoise.ipynb)
+Use an autoencoder to remove noise from fashion images
 
-[3.3-VariationalAutoEncoderConditional](notebooks/3.3-VariationalAutoEncoderConditional.ipynb)[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/wiso/TutorialML-AtlasItalia2022/blob/master/notebooks/3.3-VariationalAutoEncoderConditional.ipynb)
+### [3.2-VariationalAutoEncoder](notebooks/3.2-VariationalAutoEncoder.ipynb)[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/wiso/TutorialML-AtlasItalia2022/blob/master/notebooks/3.2-VariationalAutoEncoder.ipynb)
+Improve the generation of fashion images with a variational autoencoder
 
+### [3.3-VariationalAutoEncoderConditional](notebooks/3.3-VariationalAutoEncoderConditional.ipynb)[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/wiso/TutorialML-AtlasItalia2022/blob/master/notebooks/3.3-VariationalAutoEncoderConditional.ipynb)
+And make it conditional: generate your favourite fashion item
 
 ## Run on your laptop
 Download the repository:
