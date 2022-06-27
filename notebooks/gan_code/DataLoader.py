@@ -12,7 +12,7 @@ numpy.random.seed(10)
 from numpy import array
 
 class DataLoader:
-    def __init__(self): 
+    def __init__(self, fns): 
         self.ekin_all = []
         self.phimod_all = []
         self.eta_all = []
@@ -21,46 +21,33 @@ class DataLoader:
         self.Labels_all = []  
         self.maxVoxelAll = 0    
         self.maxVoxelMid = 0
-        self.maxVoxels = []      
+        self.maxVoxels = []
+        self.fns = fns
 
-        print ("************* DATA READER ***************")
         print ("Loading data")
 
-        e = []
-        maxExp = 10
-        for i in range(8, maxExp):
-            e.append(2**i)
-
-        self.ekins = e
-        print (self.ekins)
+        max_exp = 10
+        self.ekins = [2 ** i for i in range(8, max_exp)]
         self.midEnergy = self.ekins[0]
         self.LoadData()
 
     def LoadData(self):
-        print("----Loading files----")
         for index, p in enumerate(self.ekins):
-            fileName = f"gan_inputs/pid22_E%s_eta_20_25_voxalisation.csv" % (p)
-            print("Opening file " + fileName)
+            fileName = self.fns[p]
+            print("Opening file %s" % fileName)
             df = pd.read_csv(fileName, header=None, engine='python', dtype=np.float64)
             df = df.fillna(0)
            
-            Energies=df.to_numpy()
-            nevents=len(Energies)
-            
+            nevents = len(df)
+            print("Loaded momentum %d GeV with %d events and %d columns" % (p, nevents, len(df.columns)))
+                       
+            ekin = np.array([self.ekins[index]] * nevents)
+            self.ekin_all.append(ekin)
+
             #Set array to zero to remove conditioning
             etaColumn = np.zeros(nevents)
-
-            print("Loaded momentum " + str(p)) 
-            print("from file " + fileName)
-            print("with " + str(nevents) + " events")
-            print("Vector of data of size " + str(len(Energies[0]))) 
-            assert not np.any(np.isnan(Energies))
-           
-            ekin = np.array([self.ekins[index]] * nevents)
-            
-            self.ekin_all.append(ekin)
             self.eta_all.append(etaColumn)
-            self.Energies_all.append(Energies)
+            self.Energies_all.append(df.to_numpy())
             self.E_min = np.min(self.ekins)
             self.E_max = np.max(self.ekins)
 
