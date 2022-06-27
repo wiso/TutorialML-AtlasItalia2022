@@ -41,7 +41,7 @@ ekins = dl.ekins
 firstPosition = 0
 
 print("Opening vox files")
-for index, energy in enumerate(dataParameters.momentums):    
+for index, energy in enumerate(ekins):    
   #print(" Energy ", energy)
   input_file_vox = ('rootFiles/pid22_E%s_eta_20_25.root' % (energy))
   print(" Opening file: " + input_file_vox)
