@@ -27,7 +27,8 @@ class DataLoader:
         print ("Loading data")
 
         e = []
-        for i in range(8, 10):
+        maxExp = 10
+        for i in range(8, maxExp):
             e.append(2**i)
 
         self.ekins = e
