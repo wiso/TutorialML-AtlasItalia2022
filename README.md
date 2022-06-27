@@ -4,7 +4,7 @@ Material for the ML tutorial held during [ATLAS Italia 2022](https://agenda.infn
 ## Notebooks
 You can follow the tutorial in several way. Some way are interactive (you can run the code), some are static. On github and on colab you won't find the precomputed output.
 
-   * on [cernbox](https://cernbox.cern.ch/index.php/s/oiIGWYvFjC7QFYQ) (static)
+   * on [cernbox](https://cernbox.cern.ch/index.php/s/Rs3cZOmooVbwO03) (static)
    * using [Swan](https://swan.cern.ch/) (interactive) (or https://swan-k8s.cern.ch/ if you have GPU access) -> Share -> Projects shared with me -> TutorialML-AtlasItalia2022).) You will find the project only if you are registered to this tutorial (and I haven't forget you)
    * using colab: see links below (interactive)
    * on github: see the lins below (static)
