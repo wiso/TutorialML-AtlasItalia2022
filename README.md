@@ -57,7 +57,7 @@ you need a recent version of python (tested with python 3.10.4) and the possibil
 cd TutorialML-AtlasItalia2022/
 python -m virtualenv myenv --system-site-packages  # the last option if you have ROOT already installed
 source myenv/bin/activate
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 
 Open the first notebook:
