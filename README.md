@@ -44,7 +44,7 @@ Improve the generation of fashion images with a variational autoencoder
 ### [3.3-VariationalAutoEncoderConditional](notebooks/3.3-VariationalAutoEncoderConditional.ipynb)[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/wiso/TutorialML-AtlasItalia2022/blob/master/notebooks/3.3-VariationalAutoEncoderConditional.ipynb)
 And make it conditional: generate your favourite fashion item
 
-### [4.0-MLReweighting](notebook/4.0-MLReweighting.ipynb)[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/wiso/TutorialML-AtlasItalia2022/blob/master/notebooks/4.0-MLReweighting.ipynb)
+### [4.0-MLReweighting](notebooks/4.0-MLReweighting.ipynb)[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/wiso/TutorialML-AtlasItalia2022/blob/master/notebooks/4.0-MLReweighting.ipynb)
 Reweight the MC to match the data using a NN correcting for several variables togheter.
 
 ## Run on your laptop
