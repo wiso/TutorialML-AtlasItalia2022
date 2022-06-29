@@ -27,6 +27,8 @@ All the notebooks with their outputs can be found on [cernbox](https://cernbox.c
 
 [3.3-VariationalAutoEncoderConditional](notebooks/3.3-VariationalAutoEncoderConditional.ipynb)[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/wiso/TutorialML-AtlasItalia2022/blob/master/notebooks/3.3-VariationalAutoEncoderConditional.ipynb)
 
+[4.0-Generative adversarial network](notebooks/4.0-GAN.ipynb)[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/wiso/TutorialML-AtlasItalia2022/blob/master/notebooks/4.0-GAN.ipynb)
+
 
 ## Run on your laptop
 Download the repository:
