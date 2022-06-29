@@ -186,8 +186,11 @@ class WGANGP():
         
 
   def load(self, epoch, labels, nevents, input_dir_gan):
-    self.saver.restore("%s/model-%s" % (input_dir_gan, int(epoch/1000))) 
-    z = tf.random.normal([nevents, self.ganParameters.latent_dim], mean=0.5, stddev=0.5, dtype=tf.dtypes.float32)
+    checkPointName = "%s/model-%s" % (input_dir_gan, int(epoch))
+    print(checkPointName)
+    self.saver.restore(checkPointName)
+
+    z = tf.random.normal([nevents, 50], mean=0.5, stddev=0.5, dtype=tf.dtypes.float32)
     x_fake = self.G(inputs=[z, labels])
     return x_fake
 
