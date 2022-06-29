@@ -23,28 +23,28 @@ Images classification (fashion-mnist dataset) with a plain neural network
 ### [1.1-ImageClassification](notebooks/1.1-ImageClassification.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/wiso/TutorialML-AtlasItalia2022/blob/master/notebooks/1.1-ImageClassification.ipynb)
 An improved version of the previous example using a convolutional neural network
 
-### [2.0-EnergyRegression](notebooks/2.0-EnergyRegression.ipynb)[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/wiso/TutorialML-AtlasItalia2022/blob/master/notebooks/2.0-EnergyRegression.ipynb)
+### [2.0-EnergyRegression](notebooks/2.0-EnergyRegression.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/wiso/TutorialML-AtlasItalia2022/blob/master/notebooks/2.0-EnergyRegression.ipynb)
 Build an energy calibration for electron in ATLAS using a neural network: introduction to the problem and the dataset
 
-### [2.1-EnergyRegression](notebooks/2.1-EnergyRegression.ipynb)[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/wiso/TutorialML-AtlasItalia2022/blob/master/notebooks/2.1-EnergyRegression.ipynb)
+### [2.1-EnergyRegression](notebooks/2.1-EnergyRegression.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/wiso/TutorialML-AtlasItalia2022/blob/master/notebooks/2.1-EnergyRegression.ipynb)
 The real neural network for the energy calibration
 
-### [2.2-EnergyRegression](notebooks/2.2-EnergyRegression.ipynb)[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/wiso/TutorialML-AtlasItalia2022/blob/master/notebooks/2.2-EnergyRegression.ipynb)
+### [2.2-EnergyRegression](notebooks/2.2-EnergyRegression.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/wiso/TutorialML-AtlasItalia2022/blob/master/notebooks/2.2-EnergyRegression.ipynb)
 Some more complicated: build a regression of the distribution of the energy response of the detector to electrons
 
-### [3.0-Autoencoder](notebooks/3.0-AutoEncoder.ipynb)[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/wiso/TutorialML-AtlasItalia2022/blob/master/notebooks/3.0-AutoEncoder.ipynb)
+### [3.0-Autoencoder](notebooks/3.0-AutoEncoder.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/wiso/TutorialML-AtlasItalia2022/blob/master/notebooks/3.0-AutoEncoder.ipynb)
 Use an autoencoder to generate fashion images
 
-### [3.1-Autoencoder_denoise](notebooks/3.1-AutoEncoder_denoise.ipynb)[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/wiso/TutorialML-AtlasItalia2022/blob/master/notebooks/3.1-AutoEncoder_denoise.ipynb)
+### [3.1-Autoencoder_denoise](notebooks/3.1-AutoEncoder_denoise.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/wiso/TutorialML-AtlasItalia2022/blob/master/notebooks/3.1-AutoEncoder_denoise.ipynb)
 Use an autoencoder to remove noise from fashion images
 
-### [3.2-VariationalAutoEncoder](notebooks/3.2-VariationalAutoEncoder.ipynb)[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/wiso/TutorialML-AtlasItalia2022/blob/master/notebooks/3.2-VariationalAutoEncoder.ipynb)
+### [3.2-VariationalAutoEncoder](notebooks/3.2-VariationalAutoEncoder.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/wiso/TutorialML-AtlasItalia2022/blob/master/notebooks/3.2-VariationalAutoEncoder.ipynb)
 Improve the generation of fashion images with a variational autoencoder
 
-### [3.3-VariationalAutoEncoderConditional](notebooks/3.3-VariationalAutoEncoderConditional.ipynb)[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/wiso/TutorialML-AtlasItalia2022/blob/master/notebooks/3.3-VariationalAutoEncoderConditional.ipynb)
+### [3.3-VariationalAutoEncoderConditional](notebooks/3.3-VariationalAutoEncoderConditional.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/wiso/TutorialML-AtlasItalia2022/blob/master/notebooks/3.3-VariationalAutoEncoderConditional.ipynb)
 And make it conditional: generate your favourite fashion item
 
-### [4.0-MLReweighting](notebooks/4.0-MLReweighting.ipynb)[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/wiso/TutorialML-AtlasItalia2022/blob/master/notebooks/4.0-MLReweighting.ipynb)
+### [4.0-MLReweighting](notebooks/4.0-MLReweighting.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/wiso/TutorialML-AtlasItalia2022/blob/master/notebooks/4.0-MLReweighting.ipynb)
 Reweight the MC to match the data using a NN correcting for several variables togheter.
 
 ## Run on your laptop
